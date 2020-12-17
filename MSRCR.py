@@ -40,7 +40,7 @@ def multiScaleRetinex(img, sigma_list):
 
 
 if __name__ == '__main__':
-    imageSrc = cv2.imread("D:\\opencvpy\\003\\0000.jpg")
+    imageSrc = cv2.imread("D:\\003\\0000.jpg")
     cv2.imshow('src', imageSrc)
 
     dstsrc = singleScaleRetinex(imageSrc, 300)
